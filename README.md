@@ -6,6 +6,6 @@
 
 <br/>
 
-<img src="repos.svg?v=1" width="100%"/>
+<img src="repos.svg?v=2" width="100%"/>
 
 <br/>
