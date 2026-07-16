@@ -1,4 +1,6 @@
-<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+```svg
+<svg width="680" height="260" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg">
+
 <defs>
   <radialGradient id="i1" cx="50%" cy="50%" r="50%">
     <stop offset="0%" stop-color="#6366f1" stop-opacity="0.7"/>
@@ -15,129 +17,113 @@
     <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
   </radialGradient>
 
-  <clipPath id="clip">
-    <rect width="1000" height="260" rx="16"/>
+  <clipPath id="ic">
+    <rect width="680" height="260" rx="16"/>
   </clipPath>
+
 </defs>
 
-<rect width="1000" height="260" rx="16" fill="#06060f"/>
+<rect width="680" height="260" rx="16" fill="#06060f"/>
 
-<g clip-path="url(#clip)">
-
-  <ellipse cx="80" cy="120" rx="220" ry="170" fill="url(#i1)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0,0;50,40;-40,20;30,-50;0,0"
-      dur="11s"
-      repeatCount="indefinite"/>
-  </ellipse>
-
-  <ellipse cx="900" cy="80" rx="220" ry="170" fill="url(#i2)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0,0;-40,50;30,-30;-50,40;0,0"
-      dur="13s"
-      repeatCount="indefinite"/>
-  </ellipse>
-
-  <ellipse cx="500" cy="260" rx="320" ry="120" fill="url(#i3)">
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0,0;30,-40;-50,20;40,-30;0,0"
-      dur="9s"
-      repeatCount="indefinite"/>
-  </ellipse>
-
+<g clip-path="url(#ic)">
+  <ellipse cx="80" cy="120" rx="200" ry="160" fill="url(#i1)"/>
+  <ellipse cx="600" cy="100" rx="180" ry="150" fill="url(#i2)"/>
+  <ellipse cx="340" cy="240" rx="220" ry="100" fill="url(#i3)"/>
 </g>
 
-<text
-    x="40"
-    y="40"
-    font-family="'Times New Roman', Times, serif"
-    font-size="13"
-    fill="#94a3b8"
-    letter-spacing="2">
+<text x="40" y="42"
+      font-family="'Times New Roman', Times, serif"
+      font-size="13"
+      fill="#94a3b8"
+      letter-spacing="2">
 INTERESTS
 </text>
 
-<!-- Offensive Security -->
-<rect x="40" y="60" width="180" height="36" rx="8"
+<!-- Fila 1 -->
+
+<rect x="40" y="58" width="170" height="34" rx="8"
       fill="#1e1b4b" stroke="#6366f1"/>
-<text x="130" y="83"
-      text-anchor="middle"
+
+<text x="125" y="80"
       font-family="monospace"
       font-size="13"
-      fill="#c7d2fe">
+      fill="#a5b4fc"
+      text-anchor="middle">
 Offensive Security
 </text>
 
-<!-- Penetration Testing -->
-<rect x="235" y="60" width="200" height="36" rx="8"
+<rect x="225" y="58" width="205" height="34" rx="8"
       fill="#1c1917" stroke="#f59e0b"/>
-<text x="335" y="83"
-      text-anchor="middle"
+
+<text x="327" y="80"
       font-family="monospace"
       font-size="13"
-      fill="#fde68a">
+      fill="#fcd34d"
+      text-anchor="middle">
 Penetration Testing
 </text>
 
-<!-- Red Teaming -->
-<rect x="450" y="60" width="150" height="36" rx="8"
+<!-- Fila 2 -->
+
+<rect x="40" y="106" width="140" height="34" rx="8"
       fill="#0c1a2e" stroke="#06b6d4"/>
-<text x="525" y="83"
-      text-anchor="middle"
+
+<text x="110" y="128"
       font-family="monospace"
       font-size="13"
-      fill="#67e8f9">
+      fill="#67e8f9"
+      text-anchor="middle">
 Red Teaming
 </text>
 
-<!-- Linux -->
-<rect x="615" y="60" width="90" height="36" rx="8"
+<rect x="195" y="106" width="80" height="34" rx="8"
       fill="#0d1f13" stroke="#10b981"/>
-<text x="660" y="83"
-      text-anchor="middle"
+
+<text x="235" y="128"
       font-family="monospace"
       font-size="13"
-      fill="#86efac">
+      fill="#6ee7b7"
+      text-anchor="middle">
 Linux
 </text>
 
-<!-- CTF -->
-<rect x="720" y="60" width="230" height="36" rx="8"
-      fill="#1a0f2e" stroke="#ec4899"/>
-<text x="835" y="83"
-      text-anchor="middle"
-      font-family="monospace"
-      font-size="13"
-      fill="#f9a8d4">
-Capture The Flag (CTF)
-</text>
+<rect x="290" y="106" width="150" height="34" rx="8"
+      fill="#0f172a"
+      stroke="#22c55e"/>
 
-<!-- Virtualization -->
-<rect x="40" y="115" width="270" height="36" rx="8"
-      fill="#2e1065" stroke="#a855f7"/>
-<text x="175" y="138"
-      text-anchor="middle"
+<text x="365" y="128"
       font-family="monospace"
       font-size="13"
-      fill="#d8b4fe">
-Virtualization &amp; Homelabs
-</text>
-
-<!-- Open Source -->
-<rect x="325" y="115" width="150" height="36" rx="8"
-      fill="#0d1f13" stroke="#10b981"/>
-<text x="400" y="138"
-      text-anchor="middle"
-      font-family="monospace"
-      font-size="13"
-      fill="#86efac">
+      fill="#86efac"
+      text-anchor="middle">
 Open Source
 </text>
 
+<!-- Fila 3 -->
+
+<rect x="40" y="154" width="250" height="34" rx="8"
+      fill="#1a0f2e"
+      stroke="#a855f7"/>
+
+<text x="165" y="176"
+      font-family="monospace"
+      font-size="12"
+      fill="#d8b4fe"
+      text-anchor="middle">
+Virtualization &amp; Homelabs
+</text>
+
+<rect x="305" y="154" width="190" height="34" rx="8"
+      fill="#2e1065"
+      stroke="#ec4899"/>
+
+<text x="400" y="176"
+      font-family="monospace"
+      font-size="12"
+      fill="#f9a8d4"
+      text-anchor="middle">
+Capture The Flag (CTF)
+</text>
+
 </svg>
+```
