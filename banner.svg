@@ -1,0 +1,26 @@
+<svg width="680" height="200" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <radialGradient id="n1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a855f7" stop-opacity="0.9"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+  <radialGradient id="n2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#06b6d4" stop-opacity="0.85"/><stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+  <radialGradient id="n3" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ec4899" stop-opacity="0.75"/><stop offset="100%" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+  <radialGradient id="n4" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#f97316" stop-opacity="0.7"/><stop offset="100%" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+  <clipPath id="nc"><rect width="680" height="200" rx="16"/></clipPath>
+</defs>
+<rect width="680" height="200" rx="16" fill="#06060f"/>
+<g clip-path="url(#nc)">
+  <ellipse cx="100" cy="90" rx="200" ry="170" fill="url(#n1)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;70,30;-30,60;50,-40;0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="580" cy="60" rx="210" ry="160" fill="url(#n2)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-60,50;40,-30;-50,70;0,0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="340" cy="180" rx="240" ry="120" fill="url(#n3)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;40,-60;-70,30;30,50;0,0" dur="14s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="560" cy="180" rx="160" ry="110" fill="url(#n4)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-40,-50;60,20;-20,-60;0,0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+</g>
+<text x="50" y="105" font-family="'Times New Roman', Times, serif" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="1" opacity="0.97">llucloh</text>
+<text x="52" y="148" font-family="'Times New Roman', Times, serif" font-size="18" fill="#cbd5e1" opacity="0.7" font-style="italic">Ethical Hacking enthusiast ♡ </text>
+</svg>
