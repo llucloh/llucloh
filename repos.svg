@@ -24,7 +24,7 @@
 
 <rect x="40" y="56" width="600" height="80" rx="10" fill="#0d0d1a" stroke="#10b981" stroke-width="0.8"/>
 <text x="58" y="82" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#6ee7b7">llucloh.github.io</text>
-<text x="58" y="106" font-family="sans-serif" font-size="12" fill="#94a3b8">Cybersecurity blog & write-ups for CTF challenges</text>
+<text x="58" y="106" font-family="sans-serif" font-size="12" fill="#94a3b8">Hacking blog featuring detailed CTF write-ups</text>
 
 <rect x="40" y="152" width="600" height="96" rx="10" fill="#0d0d1a" stroke="#06b6d4" stroke-width="0.8"/>
 <text x="58" y="178" font-family="'Times New Roman', Times, serif" font-size="16" font-weight="700" fill="#67e8f9">masvs-web-checklist</text>
