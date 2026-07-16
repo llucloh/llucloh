@@ -1,129 +1,55 @@
-```svg
-<svg width="680" height="260" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg">
-
+<svg width="680" height="190" viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <radialGradient id="i1" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#6366f1" stop-opacity="0.7"/>
-    <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
-  </radialGradient>
-
-  <radialGradient id="i2" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#10b981" stop-opacity="0.6"/>
-    <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
-  </radialGradient>
-
-  <radialGradient id="i3" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
-  </radialGradient>
-
-  <clipPath id="ic">
-    <rect width="680" height="260" rx="16"/>
-  </clipPath>
-
+  <radialGradient id="bg-green" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#10b981" stop-opacity="0.45"/><stop offset="100%" stop-color="#10b981" stop-opacity="0"/></radialGradient>
+  <radialGradient id="bg-red" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ef4444" stop-opacity="0.4"/><stop offset="100%" stop-color="#ef4444" stop-opacity="0"/></radialGradient>
+  <radialGradient id="bg-blue" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/><stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+  <clipPath id="card-clip"><rect width="680" height="190" rx="16"/></clipPath>
 </defs>
 
-<rect width="680" height="260" rx="16" fill="#06060f"/>
+<rect width="680" height="190" rx="16" fill="#05050a"/>
 
-<g clip-path="url(#ic)">
-  <ellipse cx="80" cy="120" rx="200" ry="160" fill="url(#i1)"/>
-  <ellipse cx="600" cy="100" rx="180" ry="150" fill="url(#i2)"/>
-  <ellipse cx="340" cy="240" rx="220" ry="100" fill="url(#i3)"/>
+<g clip-path="url(#card-clip)">
+  <ellipse cx="90" cy="90" rx="180" ry="140" fill="url(#bg-green)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;30,20;-20,30;10,-30;0,0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="580" cy="110" rx="190" ry="130" fill="url(#bg-red)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;-30,30;20,-20;-40,10;0,0" dur="14s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
+  <ellipse cx="340" cy="160" rx="160" ry="90" fill="url(#bg-blue)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;20,-30;-30,10;20,-10;0,0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+  </ellipse>
 </g>
 
-<text x="40" y="42"
-      font-family="'Times New Roman', Times, serif"
-      font-size="13"
-      fill="#94a3b8"
-      letter-spacing="2">
-INTERESTS
-</text>
+<text x="40" y="44" font-family="'Times New Roman', Times, serif" font-size="13" fill="#94a3b8" letter-spacing="2">INTERESTS &amp; EXPERTISE</text>
 
-<!-- Fila 1 -->
+<rect x="40" y="58" width="155" height="34" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="0.8"/>
+<text x="117.5" y="80" font-family="monospace" font-size="13" fill="#38bdf8" text-anchor="middle">Offensive Security</text>
 
-<rect x="40" y="58" width="170" height="34" rx="8"
-      fill="#1e1b4b" stroke="#6366f1"/>
+<rect x="203" y="58" width="165" height="34" rx="8" fill="#1c1917" stroke="#f59e0b" stroke-width="0.8"/>
+<text x="285.5" y="80" font-family="monospace" font-size="13" fill="#fcd34d" text-anchor="middle">Penetration Testing</text>
 
-<text x="125" y="80"
-      font-family="monospace"
-      font-size="13"
-      fill="#a5b4fc"
-      text-anchor="middle">
-Offensive Security
-</text>
+<rect x="376" y="58" width="110" height="34" rx="8" fill="#1a0505" stroke="#ef4444" stroke-width="0.8"/>
+<text x="431" y="80" font-family="monospace" font-size="13" fill="#fca5a5" text-anchor="middle">Red Teaming</text>
 
-<rect x="225" y="58" width="205" height="34" rx="8"
-      fill="#1c1917" stroke="#f59e0b"/>
+<rect x="494" y="58" width="70" height="34" rx="8" fill="#1e1b4b" stroke="#818cf8" stroke-width="0.8"/>
+<text x="529" y="80" font-family="monospace" font-size="13" fill="#c7d2fe" text-anchor="middle">Linux</text>
 
-<text x="327" y="80"
-      font-family="monospace"
-      font-size="13"
-      fill="#fcd34d"
-      text-anchor="middle">
-Penetration Testing
-</text>
+<rect x="572" y="58" width="68" height="34" rx="8" fill="#172554" stroke="#3b82f6" stroke-width="0.8"/>
+<text x="606" y="80" font-family="monospace" font-size="13" fill="#93c5fd" text-anchor="middle">CTFs</text>
 
-<!-- Fila 2 -->
 
-<rect x="40" y="106" width="140" height="34" rx="8"
-      fill="#0c1a2e" stroke="#06b6d4"/>
+<rect x="40" y="104" width="75" height="34" rx="8" fill="#1e1b4b" stroke="#a855f7" stroke-width="0.8"/>
+<text x="77.5" y="126" font-family="monospace" font-size="13" fill="#d8b4fe" text-anchor="middle">OSINT</text>
 
-<text x="110" y="128"
-      font-family="monospace"
-      font-size="13"
-      fill="#67e8f9"
-      text-anchor="middle">
-Red Teaming
-</text>
+<rect x="123" y="104" width="155" height="34" rx="8" fill="#022c22" stroke="#10b981" stroke-width="0.8"/>
+<text x="200.5" y="126" font-family="monospace" font-size="13" fill="#6ee7b7" text-anchor="middle">Python Automation</text>
 
-<rect x="195" y="106" width="80" height="34" rx="8"
-      fill="#0d1f13" stroke="#10b981"/>
+<rect x="286" y="104" width="115" height="34" rx="8" fill="#0f172a" stroke="#06b6d4" stroke-width="0.8"/>
+<text x="343.5" y="126" font-family="monospace" font-size="13" fill="#67e8f9" text-anchor="middle">Open Source</text>
 
-<text x="235" y="128"
-      font-family="monospace"
-      font-size="13"
-      fill="#6ee7b7"
-      text-anchor="middle">
-Linux
-</text>
+<rect x="409" y="104" width="150" height="34" rx="8" fill="#1c1917" stroke="#f97316" stroke-width="0.8"/>
+<text x="484" y="126" font-family="monospace" font-size="13" fill="#fdba74" text-anchor="middle">Vulnerability Res.</text>
 
-<rect x="290" y="106" width="150" height="34" rx="8"
-      fill="#0f172a"
-      stroke="#22c55e"/>
-
-<text x="365" y="128"
-      font-family="monospace"
-      font-size="13"
-      fill="#86efac"
-      text-anchor="middle">
-Open Source
-</text>
-
-<!-- Fila 3 -->
-
-<rect x="40" y="154" width="250" height="34" rx="8"
-      fill="#1a0f2e"
-      stroke="#a855f7"/>
-
-<text x="165" y="176"
-      font-family="monospace"
-      font-size="12"
-      fill="#d8b4fe"
-      text-anchor="middle">
-Virtualization &amp; Homelabs
-</text>
-
-<rect x="305" y="154" width="190" height="34" rx="8"
-      fill="#2e1065"
-      stroke="#ec4899"/>
-
-<text x="400" y="176"
-      font-family="monospace"
-      font-size="12"
-      fill="#f9a8d4"
-      text-anchor="middle">
-Capture The Flag (CTF)
-</text>
-
+<rect x="567" y="104" width="73" height="34" rx="8" fill="#06160c" stroke="#22c55e" stroke-width="0.8"/>
+<text x="603.5" y="126" font-family="monospace" font-size="13" fill="#86efac" text-anchor="middle">Homelabs</text>
 </svg>
-```
